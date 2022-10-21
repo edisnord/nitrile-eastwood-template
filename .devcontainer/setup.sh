@@ -18,7 +18,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/plug
 git clone https://github.com/tymm/zsh-directory-history ~/.oh.my-zsh/plugins/zsh-directory-history
 curl "https://gitlab.com/top-software/eastwood/-/package_files/48884935/download" --output eastwood.tgz
 tar -xzvf eastwood.tgz 
-mv /workspaces/itasks-template/eastwood-1.1.2-linux-x64/bin/* /bin/
+mv /workspaces/nitrile-eastwood-template/eastwood-1.1.2-linux-x64/bin/* /bin/
 rm -rf eastwood-1.1.2-linux-x64
 rm eastwood.tgz
 
