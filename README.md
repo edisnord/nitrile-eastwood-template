@@ -4,6 +4,8 @@ This is a repo what holds a template hello world project that is already configu
 
 # !!! IMPORTANT !!!
 
+It might take multiple rebuilds for the container to work, i have no idea why though. If you do, please fix it and open a pull request.
+
 Don't forget to add the absolute path to your workspace folder on line 7 of devontainer.json <br>
 
 `"--volume=YOUR WORKSPACE FOLDER HERE:/workspaces/nitrile-eastwood-template:Z"`
