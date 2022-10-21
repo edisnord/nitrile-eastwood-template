@@ -4,6 +4,6 @@
 	"onCreateCommand": ".devcontainer/setup.sh",
 	"workspaceMount": "",
 	"runArgs": [
-		"--volume=/home/edishasaj/itasks-template:/workspaces/itasks-template:Z"
+		"--volume=${localWorkspaceFolder}:/workspaces/nitrile-eastwood-template:Z"
 	]
 }
