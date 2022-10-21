@@ -1,0 +1,29 @@
+format_version: 0.4.4
+name: nitrile-eastwood-template
+description: Basic Nitrile + Eastwood Project Template with Docker Dev Container.
+license: BSD-2-Clause
+version: 1.0.0
+type: Application
+src:
+  - src
+dependencies:
+  base: ^1.0.0
+package:
+  extra_files:
+    - CHANGELOG.md
+    - LICENSE
+    - README.md
+clm_options:
+  compiler: cocl
+  fusion: GenericFusion
+build:
+  application:
+    script:
+      - clm:
+          src: [src]
+          main: HelloWorld
+          target: exe/HelloWorld
+          heap: 20m
+tests:
+  compilation:
+    compilation: {}

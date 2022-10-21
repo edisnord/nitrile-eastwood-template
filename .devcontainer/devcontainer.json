@@ -1,0 +1,9 @@
+{
+	"image": "cleanlang/nitrile:0.4.4",
+	"extensions": ["TOPSoftware.clean-vs-code"],
+	"onCreateCommand": ".devcontainer/setup.sh",
+	"workspaceMount": "",
+	"runArgs": [
+		"--volume=/home/edishasaj/itasks-template:/workspaces/itasks-template:Z"
+	]
+}
