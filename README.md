@@ -11,3 +11,8 @@ Don't forget to add the absolute path to your workspace folder on line 7 of devo
 Example:
 
 `"--volume=/home/edishasaj/git/nitrile-eastwood-template:/workspaces/nitrile-eastwood-template:Z"`
+
+# Requirements
+
+1. Docker installed on your system
+2. Dev Containers VS Code Plugin
