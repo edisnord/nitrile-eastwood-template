@@ -16,3 +16,10 @@ Example:
 
 1. Docker installed on your system
 2. Dev Containers VS Code Plugin
+
+# Instructions
+By default your built executable will be stored in the exe folder at the workspace root. To download all dependencies run
+1. `nitrile update`
+2. `nitrile fetch`
+
+To build run `nitrile build`
