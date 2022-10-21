@@ -18,7 +18,7 @@ Example:
 2. Dev Containers VS Code Plugin
 
 # Instructions
-By default your built executable will be stored in the exe folder at the workspace root. To download all dependencies run
+This project needs to be run in a dev container to have eastwood and nitrile support. Can be done by running "Open Folder in Container" in the command palette, your container should compile and VSCode should run inside of it. By default your built executable will be stored in the exe folder at the workspace root. To download all dependencies run
 1. `nitrile update`
 2. `nitrile fetch`
 
